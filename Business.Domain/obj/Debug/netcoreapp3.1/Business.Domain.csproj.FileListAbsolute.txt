@@ -1,0 +1,17 @@
+D:\workspace\ABP-MicroService-dependabot-npm_and_yarn-WebApp-vue-element-admin-showdown-1.9.1\MicroServices\Business\Business.Domain\bin\Debug\netcoreapp3.1\Business.Domain.deps.json
+D:\workspace\ABP-MicroService-dependabot-npm_and_yarn-WebApp-vue-element-admin-showdown-1.9.1\MicroServices\Business\Business.Domain\bin\Debug\netcoreapp3.1\Business.Domain.dll
+D:\workspace\ABP-MicroService-dependabot-npm_and_yarn-WebApp-vue-element-admin-showdown-1.9.1\MicroServices\Business\Business.Domain\bin\Debug\netcoreapp3.1\Business.Domain.pdb
+D:\workspace\ABP-MicroService-dependabot-npm_and_yarn-WebApp-vue-element-admin-showdown-1.9.1\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.csprojAssemblyReference.cache
+D:\workspace\ABP-MicroService-dependabot-npm_and_yarn-WebApp-vue-element-admin-showdown-1.9.1\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.AssemblyInfoInputs.cache
+D:\workspace\ABP-MicroService-dependabot-npm_and_yarn-WebApp-vue-element-admin-showdown-1.9.1\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.AssemblyInfo.cs
+D:\workspace\ABP-MicroService-dependabot-npm_and_yarn-WebApp-vue-element-admin-showdown-1.9.1\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.csproj.CoreCompileInputs.cache
+D:\workspace\ABP-MicroService-dependabot-npm_and_yarn-WebApp-vue-element-admin-showdown-1.9.1\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.dll
+D:\workspace\ABP-MicroService-dependabot-npm_and_yarn-WebApp-vue-element-admin-showdown-1.9.1\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.pdb
+D:\workspace\MysqlABP\MicroServices\Business\Business.Domain\bin\Debug\netcoreapp3.1\Business.Domain.deps.json
+D:\workspace\MysqlABP\MicroServices\Business\Business.Domain\bin\Debug\netcoreapp3.1\Business.Domain.dll
+D:\workspace\MysqlABP\MicroServices\Business\Business.Domain\bin\Debug\netcoreapp3.1\Business.Domain.pdb
+D:\workspace\MysqlABP\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.AssemblyInfoInputs.cache
+D:\workspace\MysqlABP\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.AssemblyInfo.cs
+D:\workspace\MysqlABP\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.csproj.CoreCompileInputs.cache
+D:\workspace\MysqlABP\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.dll
+D:\workspace\MysqlABP\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.pdb

@@ -1,0 +1,1591 @@
+2020-09-08 14:29:15.688 +08:00 [INF] Starting Business.Host
+2020-09-08 14:29:16.500 +08:00 [INF] User profile is available. Using 'C:\Users\wutao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-08 14:29:16.564 +08:00 [INF] Loaded ABP modules:
+2020-09-08 14:29:16.565 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-08 14:29:16.565 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-08 14:29:16.566 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-08 14:29:16.567 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-08 14:29:16.567 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-08 14:29:16.568 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-08 14:29:16.568 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-08 14:29:16.569 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-08 14:29:16.569 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-08 14:29:16.570 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-08 14:29:16.570 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-08 14:29:16.571 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-08 14:29:16.571 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-08 14:29:16.572 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-08 14:29:16.572 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-08 14:29:16.574 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-08 14:29:16.574 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-08 14:29:16.575 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-08 14:29:16.575 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-08 14:29:16.576 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-08 14:29:16.576 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-08 14:29:16.577 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-08 14:29:16.577 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-09-08 14:29:16.578 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-09-08 14:29:16.578 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-09-08 14:29:16.579 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-09-08 14:29:16.579 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-09-08 14:29:16.581 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-09-08 14:29:16.581 +08:00 [INF] - Business.BusinessDomainModule
+2020-09-08 14:29:16.582 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-08 14:29:16.585 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-08 14:29:16.585 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-08 14:29:16.586 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-08 14:29:16.587 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-08 14:29:16.588 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-08 14:29:16.588 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-09-08 14:29:16.589 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-09-08 14:29:16.590 +08:00 [INF] - Business.BusinessApplicationContractsModule
+2020-09-08 14:29:16.590 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-08 14:29:16.592 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-08 14:29:16.592 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-08 14:29:16.595 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-08 14:29:16.596 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-08 14:29:16.597 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-08 14:29:16.598 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-08 14:29:16.599 +08:00 [INF] - Business.BusinessHttpApiModule
+2020-09-08 14:29:16.600 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-09-08 14:29:16.601 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-09-08 14:29:16.602 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-09-08 14:29:16.604 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-09-08 14:29:16.605 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-09-08 14:29:16.606 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-09-08 14:29:16.607 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-09-08 14:29:16.608 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-09-08 14:29:16.609 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-09-08 14:29:16.610 +08:00 [INF] - Business.BusinessApplicationModule
+2020-09-08 14:29:16.610 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-09-08 14:29:16.611 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-09-08 14:29:16.612 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-09-08 14:29:16.614 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-09-08 14:29:16.615 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-09-08 14:29:16.616 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-09-08 14:29:16.617 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-09-08 14:29:16.618 +08:00 [INF] - Business.EntityFrameworkCore.BusinessEntityFrameworkCoreModule
+2020-09-08 14:29:16.619 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-09-08 14:29:16.620 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-08 14:29:16.621 +08:00 [INF] - Business.BusinessHostModule
+2020-09-08 14:29:19.417 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-09-08 14:29:19.947 +08:00 [INF] Executed DbCommand (26ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:29:20.031 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:29:20.041 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:29:20.048 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:29:20.057 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:29:20.081 +08:00 [INF] Executed DbCommand (19ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:29:20.093 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:29:20.098 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:29:20.104 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:29:20.108 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:29:20.114 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:29:20.177 +08:00 [INF] Initialized all ABP modules.
+2020-09-08 14:29:20.212 +08:00 [INF] Now listening on: http://localhost:51186
+2020-09-08 14:29:20.214 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-08 14:29:20.215 +08:00 [INF] Hosting environment: Development
+2020-09-08 14:29:20.217 +08:00 [INF] Content root path: D:\workspace\MysqlABP\MicroServices\Business\Business.Host
+2020-09-08 14:34:10.627 +08:00 [INF] Application is shutting down...
+2020-09-08 14:34:58.619 +08:00 [INF] Starting Business.Host
+2020-09-08 14:35:00.390 +08:00 [INF] User profile is available. Using 'C:\Users\wutao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-08 14:35:00.516 +08:00 [INF] Loaded ABP modules:
+2020-09-08 14:35:00.520 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-08 14:35:00.521 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-08 14:35:00.522 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-08 14:35:00.523 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-08 14:35:00.524 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-08 14:35:00.526 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-08 14:35:00.527 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-08 14:35:00.529 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-08 14:35:00.530 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-08 14:35:00.530 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-08 14:35:00.531 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-08 14:35:00.531 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-08 14:35:00.532 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-08 14:35:00.533 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-08 14:35:00.534 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-08 14:35:00.535 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-08 14:35:00.535 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-08 14:35:00.539 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-08 14:35:00.541 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-08 14:35:00.543 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-08 14:35:00.544 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-08 14:35:00.546 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-08 14:35:00.548 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-09-08 14:35:00.549 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-09-08 14:35:00.551 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-09-08 14:35:00.552 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-09-08 14:35:00.558 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-09-08 14:35:00.563 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-09-08 14:35:00.573 +08:00 [INF] - Business.BusinessDomainModule
+2020-09-08 14:35:00.582 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-08 14:35:00.594 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-08 14:35:00.596 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-08 14:35:00.606 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-08 14:35:00.607 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-08 14:35:00.609 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-08 14:35:00.611 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-09-08 14:35:00.620 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-09-08 14:35:00.622 +08:00 [INF] - Business.BusinessApplicationContractsModule
+2020-09-08 14:35:00.624 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-08 14:35:00.627 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-08 14:35:00.629 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-08 14:35:00.638 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-08 14:35:00.648 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-08 14:35:00.654 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-08 14:35:00.671 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-08 14:35:00.676 +08:00 [INF] - Business.BusinessHttpApiModule
+2020-09-08 14:35:00.679 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-09-08 14:35:00.681 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-09-08 14:35:00.686 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-09-08 14:35:00.687 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-09-08 14:35:00.695 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-09-08 14:35:00.698 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-09-08 14:35:00.703 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-09-08 14:35:00.707 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-09-08 14:35:00.709 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-09-08 14:35:00.711 +08:00 [INF] - Business.BusinessApplicationModule
+2020-09-08 14:35:00.716 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-09-08 14:35:00.720 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-09-08 14:35:00.728 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-09-08 14:35:00.731 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-09-08 14:35:00.734 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-09-08 14:35:00.737 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-09-08 14:35:00.739 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-09-08 14:35:00.742 +08:00 [INF] - Business.EntityFrameworkCore.BusinessEntityFrameworkCoreModule
+2020-09-08 14:35:00.746 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-09-08 14:35:00.749 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-08 14:35:00.756 +08:00 [INF] - Business.BusinessHostModule
+2020-09-08 14:35:03.174 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-09-08 14:35:04.139 +08:00 [INF] Executed DbCommand (36ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:35:04.233 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:35:04.248 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:35:04.260 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:35:04.272 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:35:04.297 +08:00 [INF] Executed DbCommand (20ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:35:04.311 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:35:04.317 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:35:04.323 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:35:04.328 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:35:04.334 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 14:35:04.428 +08:00 [INF] Initialized all ABP modules.
+2020-09-08 14:35:04.478 +08:00 [INF] Now listening on: http://localhost:51186
+2020-09-08 14:35:04.487 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-08 14:35:04.489 +08:00 [INF] Hosting environment: Development
+2020-09-08 14:35:04.492 +08:00 [INF] Content root path: D:\workspace\MysqlABP\MicroServices\Business\Business.Host
+2020-09-08 14:47:00.916 +08:00 [INF] Application is shutting down...
+2020-09-08 15:09:05.722 +08:00 [INF] Starting Business.Host
+2020-09-08 15:09:06.643 +08:00 [INF] User profile is available. Using 'C:\Users\wutao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-08 15:09:06.737 +08:00 [INF] Loaded ABP modules:
+2020-09-08 15:09:06.738 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-08 15:09:06.739 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-08 15:09:06.740 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-08 15:09:06.741 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-08 15:09:06.741 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-08 15:09:06.742 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-08 15:09:06.743 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-08 15:09:06.743 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-08 15:09:06.744 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-08 15:09:06.744 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-08 15:09:06.745 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-08 15:09:06.746 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-08 15:09:06.746 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-08 15:09:06.749 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-08 15:09:06.750 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-08 15:09:06.750 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-08 15:09:06.751 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-08 15:09:06.751 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-08 15:09:06.752 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-08 15:09:06.753 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-08 15:09:06.753 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-08 15:09:06.754 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-08 15:09:06.755 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-09-08 15:09:06.755 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-09-08 15:09:06.756 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-09-08 15:09:06.758 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-09-08 15:09:06.759 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-09-08 15:09:06.760 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-09-08 15:09:06.761 +08:00 [INF] - Business.BusinessDomainModule
+2020-09-08 15:09:06.762 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-08 15:09:06.763 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-08 15:09:06.764 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-08 15:09:06.765 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-08 15:09:06.766 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-08 15:09:06.768 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-08 15:09:06.769 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-09-08 15:09:06.770 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-09-08 15:09:06.773 +08:00 [INF] - Business.BusinessApplicationContractsModule
+2020-09-08 15:09:06.774 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-08 15:09:06.775 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-08 15:09:06.776 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-08 15:09:06.779 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-08 15:09:06.780 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-08 15:09:06.782 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-08 15:09:06.783 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-08 15:09:06.784 +08:00 [INF] - Business.BusinessHttpApiModule
+2020-09-08 15:09:06.785 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-09-08 15:09:06.786 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-09-08 15:09:06.788 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-09-08 15:09:06.789 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-09-08 15:09:06.791 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-09-08 15:09:06.792 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-09-08 15:09:06.793 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-09-08 15:09:06.794 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-09-08 15:09:06.795 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-09-08 15:09:06.796 +08:00 [INF] - Business.BusinessApplicationModule
+2020-09-08 15:09:06.799 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-09-08 15:09:06.801 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-09-08 15:09:06.803 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-09-08 15:09:06.804 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-09-08 15:09:06.805 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-09-08 15:09:06.806 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-09-08 15:09:06.807 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-09-08 15:09:06.808 +08:00 [INF] - Business.EntityFrameworkCore.BusinessEntityFrameworkCoreModule
+2020-09-08 15:09:06.809 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-09-08 15:09:06.810 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-08 15:09:06.812 +08:00 [INF] - Business.BusinessHostModule
+2020-09-08 15:09:08.241 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-09-08 15:09:08.850 +08:00 [INF] Executed DbCommand (31ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 15:09:08.927 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 15:09:08.940 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 15:09:08.949 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 15:09:08.956 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 15:09:08.980 +08:00 [INF] Executed DbCommand (20ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 15:09:08.994 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 15:09:09.000 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 15:09:09.005 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 15:09:09.010 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 15:09:09.016 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 15:09:09.085 +08:00 [INF] Initialized all ABP modules.
+2020-09-08 15:09:09.124 +08:00 [INF] Now listening on: http://localhost:51186
+2020-09-08 15:09:09.126 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-08 15:09:09.127 +08:00 [INF] Hosting environment: Development
+2020-09-08 15:09:09.129 +08:00 [INF] Content root path: D:\workspace\MysqlABP\MicroServices\Business\Business.Host
+2020-09-08 15:54:56.662 +08:00 [INF] Application is shutting down...
+2020-09-08 16:54:30.740 +08:00 [INF] Starting Business.Host
+2020-09-08 16:54:33.357 +08:00 [INF] User profile is available. Using 'C:\Users\wutao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-08 16:54:33.479 +08:00 [INF] Loaded ABP modules:
+2020-09-08 16:54:33.480 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-08 16:54:33.481 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-08 16:54:33.489 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-08 16:54:33.490 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-08 16:54:33.491 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-08 16:54:33.491 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-08 16:54:33.492 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-08 16:54:33.493 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-08 16:54:33.494 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-08 16:54:33.495 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-08 16:54:33.495 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-08 16:54:33.496 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-08 16:54:33.499 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-08 16:54:33.500 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-08 16:54:33.501 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-08 16:54:33.502 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-08 16:54:33.503 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-08 16:54:33.504 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-08 16:54:33.506 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-08 16:54:33.506 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-08 16:54:33.509 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-08 16:54:33.510 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-08 16:54:33.510 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-09-08 16:54:33.511 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-09-08 16:54:33.512 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-09-08 16:54:33.513 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-09-08 16:54:33.514 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-09-08 16:54:33.516 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-09-08 16:54:33.519 +08:00 [INF] - Business.BusinessDomainModule
+2020-09-08 16:54:33.520 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-08 16:54:33.521 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-08 16:54:33.523 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-08 16:54:33.524 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-08 16:54:33.525 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-08 16:54:33.526 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-08 16:54:33.529 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-09-08 16:54:33.530 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-09-08 16:54:33.535 +08:00 [INF] - Business.BusinessApplicationContractsModule
+2020-09-08 16:54:33.540 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-08 16:54:33.542 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-08 16:54:33.544 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-08 16:54:33.545 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-08 16:54:33.546 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-08 16:54:33.550 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-08 16:54:33.552 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-08 16:54:33.553 +08:00 [INF] - Business.BusinessHttpApiModule
+2020-09-08 16:54:33.555 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-09-08 16:54:33.556 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-09-08 16:54:33.557 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-09-08 16:54:33.560 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-09-08 16:54:33.561 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-09-08 16:54:33.562 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-09-08 16:54:33.565 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-09-08 16:54:33.566 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-09-08 16:54:33.569 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-09-08 16:54:33.570 +08:00 [INF] - Business.BusinessApplicationModule
+2020-09-08 16:54:33.572 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-09-08 16:54:33.573 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-09-08 16:54:33.574 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-09-08 16:54:33.576 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-09-08 16:54:33.577 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-09-08 16:54:33.581 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-09-08 16:54:33.583 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-09-08 16:54:33.584 +08:00 [INF] - Business.EntityFrameworkCore.BusinessEntityFrameworkCoreModule
+2020-09-08 16:54:33.585 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-09-08 16:54:33.588 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-08 16:54:33.589 +08:00 [INF] - Business.BusinessHostModule
+2020-09-08 16:54:35.768 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-09-08 16:54:36.356 +08:00 [INF] Executed DbCommand (26ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:54:36.420 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:54:36.431 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:54:36.438 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:54:36.445 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:54:36.468 +08:00 [INF] Executed DbCommand (17ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:54:36.482 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:54:36.488 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:54:36.493 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:54:36.500 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:54:36.506 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:54:36.571 +08:00 [INF] Initialized all ABP modules.
+2020-09-08 16:54:36.607 +08:00 [INF] Now listening on: http://localhost:51186
+2020-09-08 16:54:36.613 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-08 16:54:36.615 +08:00 [INF] Hosting environment: Development
+2020-09-08 16:54:36.617 +08:00 [INF] Content root path: D:\workspace\MysqlABP\MicroServices\Business\Business.Host
+2020-09-08 16:58:35.747 +08:00 [INF] Application is shutting down...
+2020-09-08 16:59:18.680 +08:00 [INF] Starting Business.Host
+2020-09-08 16:59:19.734 +08:00 [INF] User profile is available. Using 'C:\Users\wutao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-08 16:59:19.825 +08:00 [INF] Loaded ABP modules:
+2020-09-08 16:59:19.826 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-08 16:59:19.827 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-08 16:59:19.828 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-08 16:59:19.828 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-08 16:59:19.829 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-08 16:59:19.829 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-08 16:59:19.830 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-08 16:59:19.831 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-08 16:59:19.832 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-08 16:59:19.833 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-08 16:59:19.834 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-08 16:59:19.835 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-08 16:59:19.836 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-08 16:59:19.836 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-08 16:59:19.837 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-08 16:59:19.838 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-08 16:59:19.838 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-08 16:59:19.839 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-08 16:59:19.840 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-08 16:59:19.840 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-08 16:59:19.841 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-08 16:59:19.842 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-08 16:59:19.842 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-09-08 16:59:19.844 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-09-08 16:59:19.845 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-09-08 16:59:19.846 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-09-08 16:59:19.846 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-09-08 16:59:19.848 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-09-08 16:59:19.849 +08:00 [INF] - Business.BusinessDomainModule
+2020-09-08 16:59:19.851 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-08 16:59:19.852 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-08 16:59:19.855 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-08 16:59:19.856 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-08 16:59:19.857 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-08 16:59:19.858 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-08 16:59:19.859 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-09-08 16:59:19.860 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-09-08 16:59:19.861 +08:00 [INF] - Business.BusinessApplicationContractsModule
+2020-09-08 16:59:19.862 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-08 16:59:19.865 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-08 16:59:19.866 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-08 16:59:19.867 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-08 16:59:19.870 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-08 16:59:19.871 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-08 16:59:19.872 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-08 16:59:19.874 +08:00 [INF] - Business.BusinessHttpApiModule
+2020-09-08 16:59:19.875 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-09-08 16:59:19.876 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-09-08 16:59:19.877 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-09-08 16:59:19.879 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-09-08 16:59:19.880 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-09-08 16:59:19.882 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-09-08 16:59:19.884 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-09-08 16:59:19.886 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-09-08 16:59:19.888 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-09-08 16:59:19.889 +08:00 [INF] - Business.BusinessApplicationModule
+2020-09-08 16:59:19.890 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-09-08 16:59:19.892 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-09-08 16:59:19.893 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-09-08 16:59:19.895 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-09-08 16:59:19.896 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-09-08 16:59:19.897 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-09-08 16:59:19.898 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-09-08 16:59:19.901 +08:00 [INF] - Business.EntityFrameworkCore.BusinessEntityFrameworkCoreModule
+2020-09-08 16:59:19.902 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-09-08 16:59:19.905 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-08 16:59:19.906 +08:00 [INF] - Business.BusinessHostModule
+2020-09-08 16:59:21.376 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-09-08 16:59:22.048 +08:00 [INF] Executed DbCommand (33ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:59:22.128 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:59:22.143 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:59:22.155 +08:00 [INF] Executed DbCommand (9ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:59:22.185 +08:00 [INF] Executed DbCommand (25ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:59:22.200 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:59:22.206 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:59:22.211 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:59:22.217 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:59:22.222 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:59:22.230 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-08 16:59:22.302 +08:00 [INF] Initialized all ABP modules.
+2020-09-08 16:59:22.338 +08:00 [INF] Now listening on: http://localhost:51186
+2020-09-08 16:59:22.340 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-08 16:59:22.341 +08:00 [INF] Hosting environment: Development
+2020-09-08 16:59:22.342 +08:00 [INF] Content root path: D:\workspace\MysqlABP\MicroServices\Business\Business.Host
+2020-09-08 18:59:06.346 +08:00 [INF] Application is shutting down...
+2020-09-09 09:41:00.329 +08:00 [INF] Starting Business.Host
+2020-09-09 09:41:01.721 +08:00 [INF] User profile is available. Using 'C:\Users\wutao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-09 09:41:01.793 +08:00 [INF] Loaded ABP modules:
+2020-09-09 09:41:01.795 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-09 09:41:01.795 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-09 09:41:01.796 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-09 09:41:01.796 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-09 09:41:01.797 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-09 09:41:01.797 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-09 09:41:01.798 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-09 09:41:01.799 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-09 09:41:01.799 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-09 09:41:01.800 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-09 09:41:01.800 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-09 09:41:01.801 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-09 09:41:01.801 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-09 09:41:01.802 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-09 09:41:01.803 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-09 09:41:01.804 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-09 09:41:01.804 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-09 09:41:01.805 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-09 09:41:01.805 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-09 09:41:01.806 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-09 09:41:01.807 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-09 09:41:01.807 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-09 09:41:01.808 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-09-09 09:41:01.808 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-09-09 09:41:01.809 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-09-09 09:41:01.809 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-09-09 09:41:01.810 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-09-09 09:41:01.811 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-09-09 09:41:01.812 +08:00 [INF] - Business.BusinessDomainModule
+2020-09-09 09:41:01.814 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-09 09:41:01.815 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-09 09:41:01.816 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-09 09:41:01.817 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-09 09:41:01.818 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-09 09:41:01.819 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-09 09:41:01.820 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-09-09 09:41:01.821 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-09-09 09:41:01.822 +08:00 [INF] - Business.BusinessApplicationContractsModule
+2020-09-09 09:41:01.824 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-09 09:41:01.825 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-09 09:41:01.826 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-09 09:41:01.827 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-09 09:41:01.829 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-09 09:41:01.830 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-09 09:41:01.831 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-09 09:41:01.834 +08:00 [INF] - Business.BusinessHttpApiModule
+2020-09-09 09:41:01.835 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-09-09 09:41:01.836 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-09-09 09:41:01.837 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-09-09 09:41:01.838 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-09-09 09:41:01.839 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-09-09 09:41:01.840 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-09-09 09:41:01.841 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-09-09 09:41:01.844 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-09-09 09:41:01.845 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-09-09 09:41:01.846 +08:00 [INF] - Business.BusinessApplicationModule
+2020-09-09 09:41:01.848 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-09-09 09:41:01.849 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-09-09 09:41:01.850 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-09-09 09:41:01.851 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-09-09 09:41:01.854 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-09-09 09:41:01.855 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-09-09 09:41:01.856 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-09-09 09:41:01.857 +08:00 [INF] - Business.EntityFrameworkCore.BusinessEntityFrameworkCoreModule
+2020-09-09 09:41:01.859 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-09-09 09:41:01.860 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-09 09:41:01.861 +08:00 [INF] - Business.BusinessHostModule
+2020-09-09 09:41:04.342 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-09-09 09:41:04.961 +08:00 [INF] Executed DbCommand (32ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 09:41:05.041 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 09:41:05.052 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 09:41:05.059 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 09:41:05.068 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 09:41:05.093 +08:00 [INF] Executed DbCommand (20ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 09:41:05.104 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 09:41:05.110 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 09:41:05.116 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 09:41:05.120 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 09:41:05.126 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 09:41:05.188 +08:00 [INF] Initialized all ABP modules.
+2020-09-09 09:41:05.223 +08:00 [INF] Now listening on: http://localhost:51186
+2020-09-09 09:41:05.224 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-09 09:41:05.226 +08:00 [INF] Hosting environment: Development
+2020-09-09 09:41:05.227 +08:00 [INF] Content root path: D:\workspace\MysqlABP\MicroServices\Business\Business.Host
+2020-09-09 10:19:08.820 +08:00 [INF] Application is shutting down...
+2020-09-09 10:19:49.118 +08:00 [INF] Starting Business.Host
+2020-09-09 10:19:50.117 +08:00 [INF] User profile is available. Using 'C:\Users\wutao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-09 10:19:50.206 +08:00 [INF] Loaded ABP modules:
+2020-09-09 10:19:50.208 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-09 10:19:50.208 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-09 10:19:50.209 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-09 10:19:50.210 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-09 10:19:50.211 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-09 10:19:50.211 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-09 10:19:50.212 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-09 10:19:50.213 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-09 10:19:50.214 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-09 10:19:50.214 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-09 10:19:50.215 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-09 10:19:50.217 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-09 10:19:50.218 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-09 10:19:50.219 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-09 10:19:50.219 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-09 10:19:50.220 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-09 10:19:50.221 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-09 10:19:50.221 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-09 10:19:50.222 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-09 10:19:50.223 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-09 10:19:50.223 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-09 10:19:50.224 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-09 10:19:50.225 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-09-09 10:19:50.225 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-09-09 10:19:50.228 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-09-09 10:19:50.229 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-09-09 10:19:50.229 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-09-09 10:19:50.231 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-09-09 10:19:50.232 +08:00 [INF] - Business.BusinessDomainModule
+2020-09-09 10:19:50.233 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-09 10:19:50.234 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-09 10:19:50.235 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-09 10:19:50.239 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-09 10:19:50.240 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-09 10:19:50.242 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-09 10:19:50.243 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-09-09 10:19:50.244 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-09-09 10:19:50.245 +08:00 [INF] - Business.BusinessApplicationContractsModule
+2020-09-09 10:19:50.247 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-09 10:19:50.249 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-09 10:19:50.250 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-09 10:19:50.251 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-09 10:19:50.252 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-09 10:19:50.254 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-09 10:19:50.256 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-09 10:19:50.257 +08:00 [INF] - Business.BusinessHttpApiModule
+2020-09-09 10:19:50.259 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-09-09 10:19:50.260 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-09-09 10:19:50.261 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-09-09 10:19:50.263 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-09-09 10:19:50.264 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-09-09 10:19:50.266 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-09-09 10:19:50.268 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-09-09 10:19:50.269 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-09-09 10:19:50.270 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-09-09 10:19:50.271 +08:00 [INF] - Business.BusinessApplicationModule
+2020-09-09 10:19:50.272 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-09-09 10:19:50.273 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-09-09 10:19:50.275 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-09-09 10:19:50.277 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-09-09 10:19:50.279 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-09-09 10:19:50.280 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-09-09 10:19:50.281 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-09-09 10:19:50.282 +08:00 [INF] - Business.EntityFrameworkCore.BusinessEntityFrameworkCoreModule
+2020-09-09 10:19:50.283 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-09-09 10:19:50.284 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-09 10:19:50.286 +08:00 [INF] - Business.BusinessHostModule
+2020-09-09 10:19:51.441 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-09-09 10:19:51.960 +08:00 [INF] Executed DbCommand (22ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 10:19:52.020 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 10:19:52.031 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 10:19:52.038 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 10:19:52.046 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 10:19:52.067 +08:00 [INF] Executed DbCommand (16ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 10:19:52.078 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 10:19:52.083 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 10:19:52.087 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 10:19:52.094 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 10:19:52.099 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-09 10:19:52.161 +08:00 [INF] Initialized all ABP modules.
+2020-09-09 10:19:52.200 +08:00 [INF] Now listening on: http://localhost:51186
+2020-09-09 10:19:52.202 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-09 10:19:52.203 +08:00 [INF] Hosting environment: Development
+2020-09-09 10:19:52.205 +08:00 [INF] Content root path: D:\workspace\MysqlABP\MicroServices\Business\Business.Host
+2020-09-09 14:02:46.276 +08:00 [INF] Application is shutting down...
+2020-09-11 10:25:14.255 +08:00 [INF] Starting Business.Host
+2020-09-11 10:25:19.970 +08:00 [INF] User profile is available. Using 'C:\Users\wutao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-11 10:25:20.068 +08:00 [INF] Loaded ABP modules:
+2020-09-11 10:25:20.069 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-11 10:25:20.069 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-11 10:25:20.070 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-11 10:25:20.071 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-11 10:25:20.072 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-11 10:25:20.072 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-11 10:25:20.073 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-11 10:25:20.074 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-11 10:25:20.075 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-11 10:25:20.076 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-11 10:25:20.077 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-11 10:25:20.079 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-11 10:25:20.079 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-11 10:25:20.081 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-11 10:25:20.082 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-11 10:25:20.082 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-11 10:25:20.083 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-11 10:25:20.084 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-11 10:25:20.085 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-11 10:25:20.085 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-11 10:25:20.086 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-11 10:25:20.087 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-11 10:25:20.089 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-09-11 10:25:20.089 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-09-11 10:25:20.090 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-09-11 10:25:20.091 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-09-11 10:25:20.092 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-09-11 10:25:20.093 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-09-11 10:25:20.094 +08:00 [INF] - Business.BusinessDomainModule
+2020-09-11 10:25:20.095 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-11 10:25:20.096 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-11 10:25:20.099 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-11 10:25:20.100 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-11 10:25:20.103 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-11 10:25:20.104 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-11 10:25:20.105 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-09-11 10:25:20.106 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-09-11 10:25:20.107 +08:00 [INF] - Business.BusinessApplicationContractsModule
+2020-09-11 10:25:20.109 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-11 10:25:20.110 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-11 10:25:20.111 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-11 10:25:20.112 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-11 10:25:20.114 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-11 10:25:20.115 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-11 10:25:20.116 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-11 10:25:20.119 +08:00 [INF] - Business.BusinessHttpApiModule
+2020-09-11 10:25:20.120 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-09-11 10:25:20.121 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-09-11 10:25:20.122 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-09-11 10:25:20.123 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-09-11 10:25:20.124 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-09-11 10:25:20.125 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-09-11 10:25:20.126 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-09-11 10:25:20.128 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-09-11 10:25:20.129 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-09-11 10:25:20.131 +08:00 [INF] - Business.BusinessApplicationModule
+2020-09-11 10:25:20.132 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-09-11 10:25:20.135 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-09-11 10:25:20.136 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-09-11 10:25:20.138 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-09-11 10:25:20.139 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-09-11 10:25:20.140 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-09-11 10:25:20.141 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-09-11 10:25:20.142 +08:00 [INF] - Business.EntityFrameworkCore.BusinessEntityFrameworkCoreModule
+2020-09-11 10:25:20.143 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-09-11 10:25:20.144 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-11 10:25:20.145 +08:00 [INF] - Business.BusinessHostModule
+2020-09-11 10:25:25.429 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-09-11 10:25:26.617 +08:00 [INF] Executed DbCommand (53ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 10:25:26.744 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 10:25:26.762 +08:00 [INF] Executed DbCommand (11ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 10:25:26.774 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 10:25:26.795 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 10:25:26.821 +08:00 [INF] Executed DbCommand (22ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 10:25:26.832 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 10:25:26.838 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 10:25:26.844 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 10:25:26.849 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 10:25:26.857 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 10:25:26.923 +08:00 [INF] Initialized all ABP modules.
+2020-09-11 10:25:26.958 +08:00 [INF] Now listening on: http://localhost:51186
+2020-09-11 10:25:26.960 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-11 10:25:26.963 +08:00 [INF] Hosting environment: Development
+2020-09-11 10:25:26.965 +08:00 [INF] Content root path: D:\workspace\MysqlABP\MicroServices\Business\Business.Host
+2020-09-11 11:25:56.514 +08:00 [INF] Application is shutting down...
+2020-09-11 11:26:23.148 +08:00 [INF] Starting Business.Host
+2020-09-11 11:26:25.359 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44
+2020-09-11 11:28:30.355 +08:00 [INF] Starting Business.Host
+2020-09-11 11:28:33.808 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44
+2020-09-11 11:29:35.609 +08:00 [INF] Starting Business.Host
+2020-09-11 11:29:37.325 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44
+2020-09-11 11:30:07.222 +08:00 [INF] Starting Business.Host
+2020-09-11 11:30:08.592 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44
+2020-09-11 11:30:59.720 +08:00 [INF] Starting Business.Host
+2020-09-11 11:33:40.528 +08:00 [INF] Starting Business.Host
+2020-09-11 11:33:41.624 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44
+2020-09-11 11:39:35.294 +08:00 [INF] Starting Business.Host
+2020-09-11 11:39:36.941 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44
+2020-09-11 11:40:29.942 +08:00 [INF] Starting Business.Host
+2020-09-11 11:49:02.137 +08:00 [INF] Starting Business.Host
+2020-09-11 11:49:02.526 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44
+2020-09-11 11:51:07.769 +08:00 [INF] Starting Business.Host
+2020-09-11 11:51:08.105 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44
+2020-09-11 15:00:54.297 +08:00 [INF] Starting Business.Host
+2020-09-11 15:03:41.119 +08:00 [INF] Starting Business.Host
+2020-09-11 15:03:43.953 +08:00 [INF] User profile is available. Using 'C:\Users\wutao\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-09-11 15:03:44.069 +08:00 [INF] Loaded ABP modules:
+2020-09-11 15:03:44.070 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-09-11 15:03:44.071 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-09-11 15:03:44.073 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-09-11 15:03:44.074 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-09-11 15:03:44.074 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-09-11 15:03:44.075 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-09-11 15:03:44.075 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-09-11 15:03:44.076 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-09-11 15:03:44.077 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-09-11 15:03:44.078 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-09-11 15:03:44.078 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-09-11 15:03:44.080 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-09-11 15:03:44.080 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-09-11 15:03:44.081 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-09-11 15:03:44.081 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-09-11 15:03:44.082 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-09-11 15:03:44.083 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-09-11 15:03:44.084 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-09-11 15:03:44.084 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-09-11 15:03:44.085 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-09-11 15:03:44.085 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2020-09-11 15:03:44.086 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-09-11 15:03:44.086 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-09-11 15:03:44.087 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-09-11 15:03:44.088 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-09-11 15:03:44.088 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-09-11 15:03:44.090 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-09-11 15:03:44.091 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-09-11 15:03:44.094 +08:00 [INF] - Business.BusinessDomainModule
+2020-09-11 15:03:44.095 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-09-11 15:03:44.096 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-09-11 15:03:44.097 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-09-11 15:03:44.100 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-09-11 15:03:44.100 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-09-11 15:03:44.101 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-09-11 15:03:44.103 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-09-11 15:03:44.104 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-09-11 15:03:44.105 +08:00 [INF] - Business.BusinessApplicationContractsModule
+2020-09-11 15:03:44.106 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-09-11 15:03:44.106 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-09-11 15:03:44.107 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-09-11 15:03:44.108 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-09-11 15:03:44.111 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-09-11 15:03:44.112 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-09-11 15:03:44.114 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-09-11 15:03:44.114 +08:00 [INF] - Business.BusinessHttpApiModule
+2020-09-11 15:03:44.116 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-09-11 15:03:44.117 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-09-11 15:03:44.118 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-09-11 15:03:44.118 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-09-11 15:03:44.120 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-09-11 15:03:44.121 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-09-11 15:03:44.123 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-09-11 15:03:44.124 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-09-11 15:03:44.126 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-09-11 15:03:44.127 +08:00 [INF] - Business.BusinessApplicationModule
+2020-09-11 15:03:44.127 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-09-11 15:03:44.128 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-09-11 15:03:44.130 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-09-11 15:03:44.131 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-09-11 15:03:44.133 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-09-11 15:03:44.134 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-09-11 15:03:44.135 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-09-11 15:03:44.135 +08:00 [INF] - Business.EntityFrameworkCore.BusinessEntityFrameworkCoreModule
+2020-09-11 15:03:44.136 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-09-11 15:03:44.137 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-09-11 15:03:44.138 +08:00 [INF] - Business.BusinessHostModule
+2020-09-11 15:03:46.411 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-09-11 15:03:47.106 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 15:03:47.183 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 15:03:47.197 +08:00 [INF] Executed DbCommand (9ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 15:03:47.205 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 15:03:47.213 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 15:03:47.241 +08:00 [INF] Executed DbCommand (24ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 15:03:47.253 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 15:03:47.259 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 15:03:47.274 +08:00 [INF] Executed DbCommand (11ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 15:03:47.282 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 15:03:47.289 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE (@__ef_filter__p_0 OR `a`.`TenantId` IS NULL) AND (((`a`.`Name` = @__name_0) AND (`a`.`ProviderName` = @__providerName_1)) AND (`a`.`ProviderKey` = @__providerKey_2))
+LIMIT 1
+2020-09-11 15:03:47.366 +08:00 [INF] Initialized all ABP modules.
+2020-09-11 15:03:47.410 +08:00 [INF] Now listening on: http://localhost:51186
+2020-09-11 15:03:47.413 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-11 15:03:47.414 +08:00 [INF] Hosting environment: Development
+2020-09-11 15:03:47.415 +08:00 [INF] Content root path: D:\workspace\MysqlABP\MicroServices\Business\Business.Host
+2020-09-11 15:03:48.549 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51186/  
+2020-09-11 15:03:48.668 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-09-11 15:03:49.557 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'SettingManagementDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-09-11 15:03:49.590 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__providerName_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`Value`
+FROM `AbpSettings` AS `a`
+WHERE (`a`.`ProviderName` = @__providerName_0) AND `a`.`ProviderKey` IS NULL
+2020-09-11 15:03:49.803 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'SettingManagementDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2020-09-11 15:03:49.815 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__providerName_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`Value`
+FROM `AbpSettings` AS `a`
+WHERE (`a`.`ProviderName` = @__providerName_0) AND `a`.`ProviderKey` IS NULL
+2020-09-11 15:03:49.954 +08:00 [INF] Executing endpoint 'Business.Controllers.HomeController.Index (Business.Host)'
+2020-09-11 15:03:50.075 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Business.Controllers.HomeController (Business.Host).
+2020-09-11 15:03:50.221 +08:00 [INF] Executing action method Business.Controllers.HomeController.Index (Business.Host) - Validation state: "Valid"
+2020-09-11 15:03:50.228 +08:00 [INF] Executed action method Business.Controllers.HomeController.Index (Business.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5237ms.
+2020-09-11 15:03:50.241 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-09-11 15:03:50.249 +08:00 [INF] Executed action Business.Controllers.HomeController.Index (Business.Host) in 166.4125ms
+2020-09-11 15:03:50.250 +08:00 [INF] Executed endpoint 'Business.Controllers.HomeController.Index (Business.Host)'
+2020-09-11 15:03:50.277 +08:00 [INF] Request finished in 1735.4066ms 302 
+2020-09-11 15:03:50.304 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51186/swagger  
+2020-09-11 15:03:50.307 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-09-11 15:03:50.312 +08:00 [INF] Request finished in 8.6321ms 301 
+2020-09-11 15:03:50.315 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51186/swagger/index.html  
+2020-09-11 15:03:50.319 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-09-11 15:03:50.381 +08:00 [INF] Request finished in 65.2407ms 200 text/html;charset=utf-8
+2020-09-11 15:03:50.404 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51186/swagger/swagger-ui.css  
+2020-09-11 15:03:50.404 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51186/swagger/swagger-ui-bundle.js  
+2020-09-11 15:03:50.404 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51186/swagger/swagger-ui-standalone-preset.js  
+2020-09-11 15:03:50.407 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-09-11 15:03:50.411 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-09-11 15:03:50.414 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-09-11 15:03:50.478 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-09-11 15:03:50.478 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-09-11 15:03:50.490 +08:00 [INF] Request finished in 85.7991ms 200 text/css
+2020-09-11 15:03:50.490 +08:00 [INF] Request finished in 85.7081ms 200 application/javascript
+2020-09-11 15:03:50.504 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-09-11 15:03:50.506 +08:00 [INF] Request finished in 101.4038ms 200 application/javascript
+2020-09-11 15:03:50.710 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51186/swagger/v1/swagger.json  
+2020-09-11 15:03:50.716 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-09-11 15:03:50.759 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51186/swagger/favicon-32x32.png  
+2020-09-11 15:03:50.765 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-09-11 15:03:50.779 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2020-09-11 15:03:50.806 +08:00 [INF] Request finished in 46.8655ms 200 image/png
+2020-09-11 15:03:50.924 +08:00 [INF] Request finished in 214.3211ms 200 application/json;charset=utf-8
+2020-09-11 15:10:09.166 +08:00 [INF] Starting Business.Host
+2020-09-11 15:53:53.606 +08:00 [INF] Starting Business.Host
+2020-09-11 16:03:12.856 +08:00 [INF] Starting Business.Host
+2020-09-11 16:04:14.967 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44
+2020-09-11 16:06:26.605 +08:00 [INF] Starting Business.Host
+2020-09-11 16:07:07.118 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44
+2020-09-11 16:10:49.714 +08:00 [INF] Starting Business.Host
+2020-09-11 16:10:52.548 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44
+2020-09-11 16:12:36.144 +08:00 [INF] Starting Business.Host
+2020-09-11 16:18:21.504 +08:00 [INF] Starting Business.Host
+2020-09-11 16:28:29.498 +08:00 [INF] Starting Business.Host
+2020-09-11 16:30:04.717 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44
+2020-09-11 16:30:41.134 +08:00 [INF] Starting Business.Host
+2020-09-11 16:38:42.433 +08:00 [INF] Starting Business.Host
+2020-09-11 16:38:49.517 +08:00 [FTL] Host terminated unexpectedly!
+Volo.Abp.AbpInitializationException: An error occurred during ConfigureServices phase of the module Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule, Volo.Abp.PermissionManagement.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null. See the inner exception for details.
+ ---> System.TypeLoadException: Method 'GetPagedListAsync' in type 'Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2' from assembly 'Volo.Abp.EntityFrameworkCore, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.<>c.<ConfigureServices>b__0_0(IAbpDbContextRegistrationOptionsBuilder options)
+   at Microsoft.Extensions.DependencyInjection.AbpEfCoreServiceCollectionExtensions.AddAbpDbContext[TDbContext](IServiceCollection services, Action`1 optionsBuilder)
+   at Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule.ConfigureServices(ServiceConfigurationContext context)
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   --- End of inner exception stack trace ---
+   at Volo.Abp.AbpApplicationBase.ConfigureServices()
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction)
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction)
+   at Business.Startup.ConfigureServices(IServiceCollection services) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Startup.cs:line 12
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Business.Program.Main(String[] args) in D:\workspace\MysqlABP\MicroServices\Business\Business.Host\Program.cs:line 44

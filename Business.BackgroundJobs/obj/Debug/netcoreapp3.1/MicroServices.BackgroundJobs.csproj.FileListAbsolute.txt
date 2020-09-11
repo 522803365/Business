@@ -1,0 +1,5 @@
+D:\workspace\MysqlABP\MicroServices\Business\MicroServices.BackgroundJobs\bin\Debug\netcoreapp3.1\MicroServices.BackgroundJobs.deps.json
+D:\workspace\MysqlABP\MicroServices\Business\MicroServices.BackgroundJobs\bin\Debug\netcoreapp3.1\MicroServices.BackgroundJobs.dll
+D:\workspace\MysqlABP\MicroServices\Business\MicroServices.BackgroundJobs\obj\Debug\netcoreapp3.1\MicroServices.BackgroundJobs.csprojAssemblyReference.cache
+D:\workspace\MysqlABP\MicroServices\Business\MicroServices.BackgroundJobs\obj\Debug\netcoreapp3.1\MicroServices.BackgroundJobs.AssemblyInfoInputs.cache
+D:\workspace\MysqlABP\MicroServices\Business\MicroServices.BackgroundJobs\obj\Debug\netcoreapp3.1\MicroServices.BackgroundJobs.AssemblyInfo.cs
